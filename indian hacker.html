@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url("https://www.technobuffalo.com/wp-content/uploads/2014/11/samsung-logo.jpg");
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="data:image/jpeg;base64,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">
+    <h1>Pranav Mistry</h1><br><br>
+    <marquee style="width:50px;"><font color=Black>INDIAN HACKER</marquee></font color>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Invention</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Early Life</h2>
+    <p>Mistry was born on 14 May 1981 in Palanpur, North Gujarat, India to Kirti Mistry and Nayna. He has two sisters, Jigna and Sweta. He has completed his bachelor's degree in Computer Science and Engineering from the Nirma Institute of Technology in Ahmedabad, Gujarat. Pranav holds a master's degree in Media Arts and Sciences from MIT and Master of Design from Industrial Design Centre, IIT Bombay. He also dropped out of an Architectural college prior to his bachelor's degree. Later he was a research assistant and a PhD candidate at MIT Media Lab. He is married to Farrah Chen</P>
+    <button>Like</button>
+  </article>
+   <article>
+   <h2>Career</h2>
+   <p>He joined Samsung as the Director of Research in 2012, and now serves as the Global Vice President of the Korean company. He introduced Samsung Galaxy Gear smart watch in September 2013. In the past, he has worked with Microsoft, Google, CMU, NASA, UNESCO, Japan Science & Technology to name a few.[5]
+
+Before joining MIT, Pranav worked as a UX Researcher with Microsoft.[4]
+
+Honored as the 'Young Global Leader 2013'by World Economic Forum</p>
+<button>Like</button>
+   </article>
+  <article>
+    <h2>New invention Gives people Six Sene</h2>
+    <p> A new Media Lab invention, sixthsense, lets you do just that as it allows users to manipulate digital information with hand gestures.
+
+By wearing just a hat with a tiny projector and a camera, a sixthsense user can make any flat surface a connection to the world to check email, map out a location, or draw with fingers.
+
+Designed by Pranav K. Mistry G, a PhD student in the Fluid Interfaces Group of the Lab, sixthsense has the ability to track colors, hand movements, and gestures. It connects with its owner’s digital devices.
+
+Many natural hand gestures are possible with sixthsense. Snapping your fingers as if you were taking a photo on an actual camera or tapping your wrist with a circular gesture maps to the physical actions of taking a picture and checking the time.
+
+“You can take a photo of a random book, and check its prices on Amazon. You can compare prices between goods in the supermarket” and check which ones are green products, said Mistry.
+
+“There is a lot of information on the Internet, but humans do not have access to it at all times. Sixthsense gives you the ability to receive information about anything and anyone you encounter, anywhere, and at all times,” added Mistry.
+
+Discussing the motivations behind his work, Mistry said “the digital world has brought many devices to human life, yet it has diluted human interactions. People have started using social networks as their major path for socializing. You would see people sitting individually in cafes, each busy with his laptop or phone. My task is to use digital work to integrate digital work into human’s lives.”
+
+The idea for the sixthsense project came to Mistry about six months ago. “It came as a crazy idea of thinking of the term head mountain projector! I just started thinking of actually making real head mountain projectors that would truly connect to people’s physical world!”
+
+Mistry initially implemented his inspiration as a projector helmet where the camera tracked what the wearer did with his or her hand. Further modifications resulted in a cap with a smaller projector, and, finally, into a small device containing a projector and a camera.
+
+Mistry initially called the device “WUW” as in “wear ur world.” But when it was introduced, sixthsense was judged to be a better title.
+
+Mistry also incorporated his Indian background into his invention. Bringing your hands together in the Indian gesture of welcome, “Namaste”, causes the main menu to open up.
+
+Mistry foresees several improvements to ‘sixthsense’, one of which is incorporating the use of computer-vision based techniques that do not require the user to wear color markers. “I have a lot of applications in mind to make sixthsense more practical for use.”
+
+“I believe that we should use systems to learn about users rather than have users learn about systems.”
+
+</p>
+    <button>Like</button><br><br>
+    <button>comment</button>
+  </article>
+ 
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
